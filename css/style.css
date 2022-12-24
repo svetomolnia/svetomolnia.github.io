@@ -1,0 +1,300 @@
+﻿/*раздел Блок, содержащий информацию об основных методах компании*/
+body {
+  font-family: 'Roboto';
+  padding: 0;
+  margin: 0;
+  width: auto;
+  background: grey;
+}
+
+.img-responsive {
+  height: 200px;
+  width: 300px;
+}
+
+.phase {
+  font-size: 20px;
+}
+
+
+
+/*Выравнивание фото проектов*/
+.flex-container {
+  margin: 0;
+}
+
+.flex-container img {
+  width: 33%;
+  display: inline-block;
+  background-color: #f3f3f3;
+  padding: 10px;
+  border-radius: 10%;
+
+
+}
+
+/*=====*/
+
+.rez {
+  width: auto;
+  text-align: center;
+  margin-top:100px;
+  margin-bottom: 100px;
+}
+
+#example_word {
+  text-align: center;
+  margin-bottom: 60px;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+
+/*Отзывы  2*/
+/*текст Отзывы*/
+.resp {
+  text-align: center;
+  background-color: #f3f3f3;
+}
+
+:focus {
+  outline: 0;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/*Шрифты*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Light'), local('RobotoLt-Regular'),
+    url(../fonts/Roboto/roboto-light.woff) format('woff'),
+    url(../fonts/Roboto/roboto-light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+    url(../fonts/Roboto/roboto-bold.woff) format('woff'),
+    url(../fonts/Roboto/roboto-bold.ttf) format('truetype');
+}
+
+
+/*шапка*/
+header {
+  font-family: "Roboto", sans-serif;
+  background: url("../img/for-demo/brushed-alum.png") #FFFFFF;
+  text-align: center;
+  padding: 10px 0;
+  padding-top: 55px;
+  width: 100%;
+
+}
+
+#contacts {
+  background-color: rgba(255, 255, 255, 0.993);
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+footer {
+  background: #e9d8d8;
+  padding: 30px 0;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  width: auto;
+}
+
+footer p {
+  font-size: 25px;
+}
+
+footer ul {
+  width: 50%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+footer ul li {
+  margin-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #5C5C5C;
+}
+
+.icon-download a {
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  top: 0;
+  right: 0;
+  display: block;
+  line-height: 60px;
+}
+
+.icon-download a:hover .fileSizeDemo {
+  color: #fff;
+  opacity: 1;
+  position: absolute;
+  top: -70px;
+}
+
+/*Основные стили*/
+
+.container {
+  width: 960px;
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.inner-testimonial {
+  text-align: center;
+  background-color: #fff;
+}
+
+.inner-testimonial>img {
+  max-width: 128px;
+  margin: 0 auto 15px;
+  opacity: 0;
+  -webkit-transition: all 1.3s linear;
+  transition: all 1.3s linear;
+}
+
+.owl-item.active .inner-testimonial>img {
+  -webkit-transition: all 1.3s linear;
+  transition: all 1.3s linear;
+}
+
+.owl-item.active .inner-testimonial>img.full-opacity {
+  opacity: 1;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+h3.city-name {
+  padding: 10px 0;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+p.text-testimonial {
+  padding: 10px 0;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.block-items {
+  cursor: default;
+}
+
+/*Изменяем внешний вид элементов управления (точки) */
+.owl-theme .owl-dots .owl-dot span {
+  width: 14px;
+  height: 14px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  width: 18px;
+  height: 18px;
+}
+
+/*Наши преимущества*/
+.our {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.images {
+  height: 70px;
+  width: 70px;
+}
+
+.lead h1 {
+  color: gold
+}
+
+/*Иконки footer*/
+
+.icons a {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+a i {
+  color: #0088cc;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+a:hover {
+  background: #0088cc;
+  transition: 1s;
+}
+
+a:hover i {
+  color: #f1f1f1;
+  transition: 1s;
+  transform: scale(1.3);
+}
+
+/*О компании, размер шрифта*/
+.col-md-4 h3 {
+  font-weight: bold;
+}
+
+.col-md-4 p {
+  font-size: large;
+}
+
+.resp {
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  padding: auto;
+  
+}
+
+/*Кнопка "Консультация"*/
+.modal-content {
+  color: black;
+}
+
+#main {
+  margin-top:100px
+}
+
+#method {
+  margin-top:100px
+}
+
+#testimonials {
+  margin-top:100px
+}
